@@ -9,32 +9,38 @@
   <body>
     <header class="header">
       <div class="container header__container">
-        <button class="header__burger-btn">
-          <img src="./assets/icons/burger.svg" alt="" />
+        <button class="header__burger-btn header__nav-link--burger">
+          <!-- <img src="./assets/icons/burger.svg" alt="" /> -->
         </button>
-        <a href="" class="header__logo-link"
-          ><img
+          <div class="divider divider__burger">
+
+          </div>
+        <a href="" class="header__logo-link">
+          <img
             width="96"
             height="50"
             src="./assets/icons/Group.svg"
-            alt="logo"
-        /></a>
+            alt="logo"/>
+        </a>
         <nav class="header__nav">
-          <a href="#" class="header__nav-link"
-            ><img src="./assets/icons/call.svg" alt="call"
-          /></a>
-          <a href="#" class="header__nav-link"
-            ><img src="./assets/icons/chat.svg" alt="chat"
-          /></a>
-          <a href="#" class="header__nav-link"
-            ><img src="./assets/icons/profile.svg" alt="profile"
-          /></a>
-          <a href="#" class="header__nav-link"
-            ><img src="./assets/icons/repair.svg" alt="repair"
-          /></a>
-          <a href="#" class="header__nav-link"
-            ><img src="./assets/icons/checkstatus.svg" alt="checkstatus"
-          /></a>
+          <a href="#" class="header__nav-link header__nav-link--call">
+            <!-- <img src="./assets/icons/call.svg" alt="call"/> -->
+          </a>
+          <a href="#" class="header__nav-link header__nav-link--chat">
+            <!-- <img src="./assets/icons/chat.svg" alt="chat"/> -->
+          </a>
+          <a href="#" class="header__nav-link header__nav-link--profile">
+            <!-- <img src="./assets/icons/profile.svg" alt="profile"/> -->
+          </a>
+          <div class="divider divider__nav">
+
+          </div>
+          <a href="#" class="header__nav-link header__nav-link--repair">
+            <!-- <img src="./assets/icons/repair.svg" alt="repair"/> -->
+          </a>
+          <a href="#" class="header__nav-link header__nav-link--checkstatus">
+            <!-- <img src="./assets/icons/checkstatus.svg" alt="checkstatus"/> -->
+          </a>
         </nav>
       </div>
     </header>
@@ -46,19 +52,21 @@
             <nav class="section__row-nav">
               <a href="#" class="section__row-nav-link">
                 Оставить заявку
-                <img
+                <div class="header__nav-link header__nav-link--repair"></div>
+
+                <!-- <img
                   src="./assets/icons/repair.svg"
                   alt="repair"
-                  class="section__row-nav-link-icon"
-                />
+                  class="section__row-nav-link-icon"/> -->
               </a>
               <a href="#" class="section__row-nav-link">
                 Статус ремонта
-                <img
+                <div class="header__nav-link header__nav-link--checkstatus "></div>
+
+                <!-- <img
                   src="./assets/icons/checkstatus.svg"
                   alt="checkstatus"
-                  class="section__row-nav-link"
-                />
+                  class="section__row-nav-link"/> -->
               </a>
             </nav>
           </div>
@@ -89,6 +97,7 @@
                 Мы успешно работаем с 1992 года и заслужили репутацию надежного
                 партнера
               </p>
+              <br />
               <button class="section__content-button">Читать далее</button>
             </div>
 
